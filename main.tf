@@ -12,6 +12,9 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 4.0"
     }
+    default_tags {
+      Project = "Coffee-Mug-Cup"
+    }
   }
 }
 
